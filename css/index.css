@@ -42,6 +42,19 @@ a:hover{
 .margin-top-215 {
 	margin-top: 215px;
 }
+.margin-top-153{
+	margin-top:153px;
+}
+.font-size-73 {
+	font-size: 73px!important;
+	line-height: 120%!important;
+	letter-spacing: -0.02em!important;
+}
+.font-size-18 {
+	font-size: 18px;
+	line-height: 24px;
+	color: rgba(255, 255, 255, 0.6);
+}
 
 .btn {
 	padding: 0!important;
@@ -61,18 +74,17 @@ a:hover{
 
 .content-first{
 	position: relative;
-	padding-bottom: 568px;
 	
 }
 
 	.content-first.first div:nth-child(2) {
 		position: relative;
-		top: -710px;
+		top: -770px;
 		right: -435px;
 	}
 	.content-first.second div:nth-child(2) {
 		position: relative;
-		top: -370px;
+		top: -440px;
 		right: -355px;
 	}
 
@@ -115,7 +127,8 @@ a:hover{
 
 .btn-learn {
 	margin-top: 40px;
-	padding: 15px 30px!important;
+	padding: 15px 30px !important;
+	margin-bottom: 50px;
 	line-height: 17px;
 	text-align: center;
 	color: #FFFFFF;
@@ -125,8 +138,8 @@ a:hover{
 }
 
 .slick-dots {
-	bottom: 450px !important;
-	left: -820px !important;
+	bottom: 1150px !important;
+	left: -840px !important;
 	display: inline-block !important;
 }
 
@@ -141,3 +154,146 @@ a:hover{
 	.slick-dots li button:before {
 		font-size: 19px!important;
 	}
+
+.content-second {
+	background-image: url("../img/bg2.png");
+	background-repeat:no-repeat;
+}
+
+.heading p{
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 72px;
+	letter-spacing: -0.5px;
+}
+
+.years {
+	width: 377px;
+}
+.year {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px;
+	gap: 61px;
+	width: 377px;
+	height: 24px;
+	left: 0px;
+	top: 456px;
+	margin-bottom: 90px;
+}
+.line {
+	width: 24px;
+	height: 4px;
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	background: #FFFFFF;
+	border-radius: 1px;
+}
+.year-number {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	/* identical to box height, or 133% */
+
+
+	color: rgba(255, 255, 255, 0.6);
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.point-line {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 190px;
+	height: 16px;
+	/* Inside auto layout */
+
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+}
+
+.oval {
+	width: 5px;
+	left: 0px;
+	top: 37.5%;
+	bottom: 31.25%;
+	background: #FFFFFF;
+	height: 5px;
+	border-radius: 205px;
+	border-top-left-radius: 205px;
+	border-top-right-radius: 205px;
+	border-bottom-right-radius: 205px;
+	border-bottom-left-radius: 205px;
+}
+.line-content {
+	width: 120px;
+	height: 3px;
+	flex: none;
+	flex-grow: 0;
+	flex-grow: 0;
+	order: 0;
+	flex-grow: 0;
+	background: #FFFFFF;
+	border-radius: 1px;
+}
+.oval-point {
+	position: relative;
+	width: 16px;
+	height: 16px;
+	top: calc(50% - 16px/2);
+}
+.oval1 {
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	left: calc(50% - 8px/2);
+	top: calc(50% - 8px/2);
+	background: #FFF;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.30171);
+	z-index: 999;
+	border-radius: 10px;
+}
+.oval2 {
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: calc(50% - 16px/2);
+	top: calc(50% - 16px/2);
+	background: #FFFFFF;
+	border-radius: 10px;
+}
+.years-image {
+	float: right;
+	margin-top: -820px;
+}
+	.years-image img {
+		width: 1436.48px;
+	}
+
+	.year-number:hover{
+		cursor: pointer;
+	}
+	.point-line{
+		display: none;
+	}
+.years-image{
+	display: none;
+}
+.active {
+	display: flex;
+}
+
+.hide {
+	display: none;
+}
+.years-image:hover{
+	cursor: pointer;
+}
