@@ -1,0 +1,143 @@
+a:hover{
+	color: #fff;
+	text-decoration: none;	
+}
+
+.container-fluid {
+	width: 100%;
+	padding: 0 40px !important;
+	margin: 0 !important;
+	background: url('../img/bg.png'), #0f1320;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header {
+	margin-top: 40px;
+}
+.top-content:first-child{
+	padding-right: 75px;
+}
+.nav:last-child{
+	padding-right: 0;
+}
+
+.margin-right-92 {
+	margin-right: 79px;
+}
+.margin-right-30 {
+	margin-right: 30px;
+}
+.margin-top-11 {
+	margin-top: 11px;
+}
+.margin-top-10 {
+	margin-top: 10px;
+}
+.margin-top-30 {
+	margin-top: 30px;
+}
+.margin-top-176{
+	margin-top: 176px;
+}
+.margin-top-215 {
+	margin-top: 215px;
+}
+
+.btn {
+	padding: 0!important;
+	border:0!important;
+}
+
+.btn-sign-green{
+	padding: 15px 50px;
+	border: 2px solid #22A75D;
+	border-radius: 52px;
+}
+
+.main-content {
+	margin-left: 136px;
+	margin-right: -40px;
+}
+
+.content-first{
+	position: relative;
+	padding-bottom: 568px;
+	
+}
+
+	.content-first.first div:nth-child(2) {
+		position: relative;
+		top: -710px;
+		right: -435px;
+	}
+	.content-first.second div:nth-child(2) {
+		position: relative;
+		top: -370px;
+		right: -355px;
+	}
+
+	.content-first:before {
+		content: url("../img/Frame 26.png");
+		background-repeat: no-repeat;
+		position: absolute;
+		right: -15px;
+		top: 25px;
+		z-index: -9;
+	}
+	.content-first img {
+		z-index: 9;
+	}
+
+.blue-text {
+	font-size: 16px;
+	line-height: 24px;
+	background: linear-gradient(0deg, #2B3087 0%, #00B4EC 81.99%), #FFD100;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
+}
+
+.main-text {
+	font-size: 48px;
+	line-height: 54px;
+	letter-spacing: -0.02em;
+	overflow: hidden;
+}
+
+.desc-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #DDE2FF;
+	opacity: 0.6;
+}
+
+.btn-learn {
+	margin-top: 40px;
+	padding: 15px 30px!important;
+	line-height: 17px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #22A75D;
+	box-shadow: 0px 15px 25px rgba(34, 167, 93, 0.25);
+	border-radius: 52px;
+}
+
+.slick-dots {
+	bottom: 450px !important;
+	left: -820px !important;
+	display: inline-block !important;
+}
+
+	.slick-dots li.slick-active button:before {
+		color: #fff!important;
+	}
+
+	.slick-dots li button:before {
+		color: #fff!important;
+	}
+
+	.slick-dots li button:before {
+		font-size: 19px!important;
+	}
