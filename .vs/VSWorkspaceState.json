@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\css",
-    "\\img"
+    "\\img",
+    "\\js"
   ],
-  "SelectedNode": "\\css\\reset.css",
+  "SelectedNode": "\\js\\index.js",
   "PreviewInSolutionExplorer": false
 }

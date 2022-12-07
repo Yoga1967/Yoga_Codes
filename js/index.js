@@ -12,3 +12,14 @@ $('.year-number').on('click', function () {
         $(".date").eq(index).toggleClass("date-active");
     } 
 });
+
+
+if ($('.point-line').hasClass(".active")) {
+    setTimeout(function () {
+        $('#square').addClass('highlight')
+    }, 6000);
+
+    setTimeout(function () {
+        $('#square').removeClass('highlight');
+    }, 10000);
+}
