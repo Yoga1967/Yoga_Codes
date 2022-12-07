@@ -481,3 +481,138 @@ a:hover{
 .opacity-06 {
 	opacity: 0.6;
 }
+.content-fifth {
+	margin-top: 210px;
+	display: flex;
+	flex-flow: row;
+	margin-right: 176px;
+	justify-content: space-around;
+}
+	.content-fifth:before {
+		content: url("../img/bg5.png");
+		position: absolute;
+		right: 0;
+		margin-top: -213px;
+	}
+.quarter-list{
+	display: inline-block;
+}
+.quarter-year {
+	display: flex;
+	align-items: center;
+}
+.quarter-year .quarter-icon{
+	margin-left: -10px!important;
+}
+	.quarter-year div {
+		margin-left: -10px !important;
+	}
+	.quarter-year p {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 36px;
+		/* identical to box height, or 200% */
+
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	.quarter-history{
+		padding-left: 10px;
+	}
+
+.quarter-history ol {
+	list-style: none;
+	counter-reset: item;
+}
+
+	.quarter-history ol li {
+		counter-increment: item;
+		margin-bottom: 5px;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 34px;
+
+
+		color: #FFFFFF;
+		opacity: 0.7;
+	}
+
+	.quarter-history ol li:before {
+		margin-right: 10px;
+		content: counter(item);
+		border-radius: 100%;
+		width: 1.2em;
+		text-align: center;
+		display: inline-block;
+	}
+.quarter-history.green-number ol li:before {
+	color: #22A75D;
+}
+		.quarter-history.blue-number ol li:before {
+			color: #2278D4;
+		}
+		.quarter-history.yellow-number ol li:before {
+			color: #FFD100;
+			;
+		}
+		.quarter-history.red-number ol li:before {
+			color: #E20613;
+			;
+		}
+
+.content-sixth {
+	margin-top: 187px;
+	display: flex;
+	flex-flow: row;
+	margin-right: 176px;
+	margin-left: 30px;
+}
+.desc-tokner .tokner-title img {
+	padding-right: 24px;
+}
+.desc-tokner p.tokner-title {
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 54px;
+}
+.font-w-700{
+	font-weight: 700!important;
+}
+.desc-content {
+	padding-top: 30px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	opacity: 0.6;
+}
+
+.yellow-quote:before {
+	content: '“';
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+	color: #FFD100;
+}
+
+.content-seventh {
+	background-image: url("../img/bg6.png");
+	background-repeat: no-repeat;
+	height: 1000px;
+	background-size: cover;
+	margin-left: -40px;
+	margin-right: -40px;
+}
+
+.margin-right-136{
+	margin-right: 136px!important;
+}
+.presale {
+	margin-top: 390px;
+}
+.presale-title p {
+	font-size: 48px;
+	line-height: 54px;
+
+	text-align: center;
+}
