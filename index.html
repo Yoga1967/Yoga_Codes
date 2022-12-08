@@ -15,53 +15,183 @@
 <body>
 
     <div class="container-fluid">
-        <div class="header header-bg d-flex flex-row">
+        <div class="header header-bg d-flex flex-row align-items-center justify-content-between">
             <div class="margin-right-92">
-                <img src="img/logo.svg" alt="" width="" height="">
+                <a href="#">
+                    <img src="img/logo.svg" alt="" width="" height="">
+                </a>
             </div>
-            <div class="d-flex flex-row mr-auto margin-top-11">
+            <div class="d-flex flex-row mr-auto margin-top-11 top-nav">
                 <p class="margin-right-30"><a href="#">Our team</a></p>
                 <p class="margin-right-30"><a href="#">Tokens</a></p>
                 <p class="margin-right-30"><a href="#">Connect wallet</a></p>
                 <p class=""><a href="#">Lightpaper</a></p>
             </div>
-            <div class="d-flex flex-row">
+            <div class="d-flex flex-row sign-pc">
                 <p class="margin-right-30 align-self-center"><a href="#">Sign In</a></p>
                 <p class="align-self-center btn-sign-green"><a href="#">Sign Up</a></p>
             </div>
+            <div class="burger-menu-sp sp-only">
+                <a href="javascript:void(0)"><img src="img/burger-icon.png" alt="" width="" height="" /></a>
+            </div>
+        </div>
+
+        <div class="menu hide">
+            <div class="header header-bg d-flex flex-row align-items-center justify-content-between">
+                <div class="margin-right-92">
+                    <a href="javascript:void(0)">
+                        <img src="img/logo.svg" alt="" width="" height="">
+                    </a>
+                </div>
+                <div class="burger-menu-sp-close sp-only">
+                    <a href="javascript:void(0)"><img src="img/burger-icon-close.png" alt="" width="" height="" /></a>
+                </div>
+            </div>
+            <ul class="margin-top-48-sp">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Jobs</a></li>
+            </ul>
+                <div class="bottom-items margin-top-60-sp">
+                    <div class="social margin-top-33-sp">
+                        <a href="#"><img src="img/icon_twitter.png" alt="" width="" height=""></a>
+                        <a href="#"><img src="img/icon_telegram.png" alt="" width="" height=""></a>
+                        <a href="#"><img src="img/icon_instagram.png" alt="" width="" height=""></a>
+                        <a href="#"><img src="img/icon_medium.png" alt="" width="" height=""></a>
+                        <a href="#"><img src="img/icon_github.png" alt="" width="" height=""></a>
+                        <a href="#"><img src="img/icon_reddit.png" alt="" width="" height=""></a>
+                    </div>
+                </div>
         </div>
 
         <div class="main-content">
             <div class="contents">
                 <div class="content-first first">
                     <div>
-                        <p class="blue-text margin-top-215">At Tokners we are</p>
+                        <p class="blue-text margin-top-215 margin-top-56-sp">At Tokners we are</p>
                         <p class="main-text margin-top-10">Reimagining social<br />media through the<br />power of the<br class="d-block d-sm-none" /> blockchain.</p>
                         <p class="desc-text margin-top-30">We are creating social media 3.0 with influencers, celebrities and<br />creators being able to launch their own digital currency by simply<br />creating a profile with media content posted as Non fungible<br />Tokens that can be owned and traded on the Tknrs network</p>
                         <p class="btn btn-learn"><a href="#">Learn More</a></p>
                     </div>
-                    <div>
+                    <div class="sp-none">
                         <img src="img/Group 27.png" alt="" width="" height="" />
                     </div>
                 </div>
                 <div class="content-first second">
                     <div>
-                        <p class="blue-text margin-top-215">At Tokners we are</p>
+                        <p class="blue-text margin-top-215 margin-top-56-sp">At Tokners we are</p>
                         <p class="main-text margin-top-10 font-size-73">Stand Out<br />from The Crowd.</p>
                         <p class="desc-text margin-top-30">Agency is a full-service agency, busy designing and building<br />beautiful digital products, brands, and experiences.</p>
                         <p class="btn btn-learn"><a href="#">Learn More</a></p>
                     </div>
-                    <div>
+                    <div class="sp-none">
                         <img src="img/Group 28.png" alt="" width="" height="" />
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="sp-only main-image">
+            <img src="img/img7.png" alt="" width="" height="" />
+        </div>
 
-            <div class="content-second">
+        <div class="main-content">
+
+            <div class="content-second margin-top-106-sp">
                 <div class="heading">
-                    <p>We Make Designs that Lead<br />and Inspire.</p>
+                    <p>We Make<br />Designs<br />that Lead<br />and Inspire.</p>
                 </div>
-                <div class="years margin-top-153">
+                <div class="sp-only sp-tabbing margin-top-32-sp">
+                    <div class="sp-tabbing arrow">
+                        <a href="javascript:void(0)" class="prev"><img src="img/icon12.png" alt="" width="" height="" /></a>
+                        <a href="javascript:void(0)" class="next"><img src="img/icon11.png" alt="" width="" height="" /></a>
+                    </div>
+                    <select id="dropdown" class="form-control" name="floorplan">
+                        <option value="tab-pane1">2018</option>
+                        <option value="tab-pane2">2019</option>
+                        <option value="tab-pane3">2020</option>
+                        <option value="tab-pane4">2021</option>
+                        <option value="tab-pane5">2022</option>
+                    </select>
+                </div>
+                <div class="tab-content sp-only">
+                    <div role="tabpanel" class="tab-pane hide active in" id="tab-pane1">
+                        <img class="tab-image" src="img/Group 145.png" alt="" width="" height="" />
+                        <div class="main-text font-size-32">
+                            <p>Lorem ipsum dolor sit<br>amet consectetur cing elit.</p>
+                        </div>
+                        <div class="sub-main-text margin-top-40-sp">
+                            <p>Lorem ipsum dolor sit amet. consectetur adispicing<br>elit. Nam porta sodales leo ibulum. Nullam vel<br>posuere nisi. Donec in lobartis arcu.</p>
+                        </div>
+                        <div class="contact-yellow">
+                            <p><a href="#">Contact Us</a></p>
+                        </div>
+                        <div class="date-number">
+                            <img src="img/number19.png" alt="" width="" height="">
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane hide" id="tab-pane2">
+                        <img class="tab-image" src="img/Group 146.png" alt="" width="" height="" />
+                        <div class="main-text font-size-32">
+                            <p>Lorem ipsum dolor sit<br>amet consectetur cing elit.</p>
+                        </div>
+                        <div class="sub-main-text margin-top-40-sp">
+                            <p>Lorem ipsum dolor sit amet. consectetur adispicing<br>elit. Nam porta sodales leo ibulum. Nullam vel<br>posuere nisi. Donec in lobartis arcu.</p>
+                        </div>
+                        <div class="contact-yellow">
+                            <p><a href="#">Contact Us</a></p>
+                        </div>
+                        <div class="date-number">
+                            <img src="img/number58.png" alt="" width="" height="">
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane hide" id="tab-pane3">
+                        <img class="tab-image" src="img/Group 147.png" alt="" width="" height="" />
+                        <div class="main-text font-size-32">
+                            <p>Lorem ipsum dolor sit<br>amet consectetur cing elit.</p>
+                        </div>
+                        <div class="sub-main-text margin-top-40-sp">
+                            <p>Lorem ipsum dolor sit amet. consectetur adispicing<br>elit. Nam porta sodales leo ibulum. Nullam vel<br>posuere nisi. Donec in lobartis arcu.</p>
+                        </div>
+                        <div class="contact-yellow">
+                            <p><a href="#">Contact Us</a></p>
+                        </div>
+                        <div class="date-number">
+                            <img src="img/number38.png" alt="" width="" height="">
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane hide" id="tab-pane4">
+                        <img class="tab-image" src="img/Group 148.png" alt="" width="" height="" />
+                        <div class="main-text font-size-32">
+                            <p>Lorem ipsum dolor sit<br>amet consectetur cing elit.</p>
+                        </div>
+                        <div class="sub-main-text margin-top-40-sp">
+                            <p>Lorem ipsum dolor sit amet. consectetur adispicing<br>elit. Nam porta sodales leo ibulum. Nullam vel<br>posuere nisi. Donec in lobartis arcu.</p>
+                        </div>
+                        <div class="contact-yellow">
+                            <p><a href="#">Contact Us</a></p>
+                        </div>
+                        <div class="date-number">
+                            <img src="img/number27.png" alt="" width="" height="">
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane hide" id="tab-pane5">
+                        <img class="tab-image" src="img/Group 149.png" alt="" width="" height="" />
+                        <div class="main-text font-size-32">
+                            <p>Lorem ipsum dolor sit<br>amet consectetur cing elit.</p>
+                        </div>
+                        <div class="sub-main-text margin-top-40-sp">
+                            <p>Lorem ipsum dolor sit amet. consectetur adispicing<br>elit. Nam porta sodales leo ibulum. Nullam vel<br>posuere nisi. Donec in lobartis arcu.</p>
+                        </div>
+                        <div class="contact-yellow">
+                            <p><a href="#">Contact Us</a></p>
+                        </div>
+                        <div class="date-number">
+                            <img src="img/number28.png" alt="" width="" height="">
+                        </div>
+                    </div>
+                </div>
+                <div class="years margin-top-153 pc-only">
                     <div class="year">
                         <div class="line"></div>
                         <div class="year-number">2018</div>
@@ -221,12 +351,12 @@
             </div>
 
             <div class="content-third">
-                <div class="benefits">
+                <div class="benefits margin-bottom-10-sp">
                     <img src="img/icon1.png" alt="" width="" height="" />
                     <div class="benefits-title">
                         <p>For <span class="color-green underscore font-size-36">Creators</span></p>
                     </div>
-                    <p class="padding-top-20 font-size-16 opacity-05">Creators can gain independence through a decentralised digital currency system<br />that is dependent on growing and engaging with the community and also their<br />star power. They own 10-15% of the total value of the tokens minted.</p>
+                    <p class="padding-top-20 font-size-16 opacity-05 benefits-desc">Creators can gain independence through a decentralised digital currency system that is dependent on growing and engaging with the community and also their star power. They own 10-15% of the total value of the tokens minted.</p>
                     <p class="color-green padding-top-68 arrow-right-green"><a href="#" class="underscore color-green">Learn More</a></p>
                 </div>
                 <div class="benefits">
@@ -234,7 +364,7 @@
                     <div class="benefits-title">
                         <p>For <span class="color-blue underscore font-size-36">Holders</span></p>
                     </div>
-                    <p class="padding-top-20 font-size-16 opacity-05">Creators can gain independence through a decentralised digital currency system<br />that is dependent on growing and engaging with the community and also their<br />star power. They own 10-15% of the total value of the tokens minted.</p>
+                    <p class="padding-top-20 font-size-16 opacity-05 benefits-desc">Creators can gain independence through a decentralised digital currency system that is dependent on growing and engaging with the community and also their star power. They own 10-15% of the total value of the tokens minted.</p>
                     <p class="padding-top-68 arrow-right-blue"><a href="#" class="underscore color-blue">Learn More</a></p>
                 </div>
             </div>
@@ -251,8 +381,8 @@
                 </div>
             </div>
         </div>
-        <div class="main-content">
-            <div class="content-fifth">
+        <div class="main-content margin-left-min10-sp">
+            <div class="content-fifth margin-top-70-sp">
                 <div class="quarter-list">
                     <div class="quarter-year">
                         <img src="img/icon3.png" alt="" width="" height="" class="quarter-icon" />
@@ -322,20 +452,26 @@
             </div>
 
 
-            <div class="content-sixth">
+            <div class="content-sixth margin-left-min10-sp margin-top-70-sp">
                 <div class="desc-tokner">
-                    <p class="tokner-title">
+                    <p class="tokner-title pc-only">
                         <img src="img/icon7.png" alt="" width="" height="" />Tokner is coming
+                    </p>
+                    <p class="tokner-title sp-only margin-top-70-sp">
+                        <img src="img/icon7.png" alt="" width="" height="" /><br />Weentar is coming
                     </p>
                     <p class="desc-content font-w-700">Cryptocurrency adoption is at less than 1% of the global world population with<br />some countries and entities actively fighting against its mass adoption and the<br />smartest developers and nerds holding the fort.</p>
                     <p class="desc-content">Bitcoin was the first, and it has since grown to thousands of tokens launched all<br />aiming to fix one problem or the other with some quite simply FOMOing the<br />moment. Our goal is to bring mass adoption to the cryptocurrency space by<br />dumbing it down. How far down? So down that even a celebrity can explain it in<br />simple words to their followers and have them download an app, buy into the<br />social currency of their favourite person and watch their investment as is with<br />other crypto currency project.</p>
-                    <p class="desc-content">We are trying to do to this space what investment apps did for the "nonexistent<br />retail investors". We are gamefying digital currency, bringing in popular faces<br />instead of hard to understand projects to make it the norm and inadvertently<br />being the "gateway drug" for a lot of people to finally give this space a real look.</p>
-                    <p class="desc-content font-w-700">A new digital economy is coming. People would be just as powerful as countries<br />and creators would be paid beyond the peanuts that conventional social media<br />platforms can offer.</p>
-                    <p class="desc-content">There would be new markets and advertisers with little to offer would not find home<br />there. Like Kanye said,</p>
-                    <p class="desc-content yellow-quote font-w-700">"Personalities would become the new currency, and services would be built<br />on top of them".</p>
-                    <p class="desc-content">Well, Kanye didn't exactly say that, but it sounds like something we hope he<br />would say.</p>
+                    <div class="read-more hide-sp-only">
+                        <p class="desc-content">We are trying to do to this space what investment apps did for the "nonexistent<br />retail investors". We are gamefying digital currency, bringing in popular faces<br />instead of hard to understand projects to make it the norm and inadvertently<br />being the "gateway drug" for a lot of people to finally give this space a real look.</p>
+                        <p class="desc-content font-w-700">A new digital economy is coming. People would be just as powerful as countries<br />and creators would be paid beyond the peanuts that conventional social media<br />platforms can offer.</p>
+                        <p class="desc-content">There would be new markets and advertisers with little to offer would not find home<br />there. Like Kanye said,</p>
+                        <p class="desc-content yellow-quote font-w-700">"Personalities would become the new currency, and services would be built<br />on top of them".</p>
+                        <p class="desc-content">Well, Kanye didn't exactly say that, but it sounds like something we hope he<br />would say.</p>
 
-                    <p class="desc-content">Currency is digital, it has been that way for a while now, but this time there would<br />be no dead presidents on the money, there would people like you on the money,<br />and you would own it because it would make the most sense in the world.</p>
+                        <p class="desc-content">Currency is digital, it has been that way for a while now, but this time there would<br />be no dead presidents on the money, there would people like you on the money,<br />and you would own it because it would make the most sense in the world.</p>
+                    </div>
+                    <p class="sp-only read"><a href="javascript:void(0)" class="read-more-button" id="myBtn">Read More</a></p>
                 </div>
                 <div class="img-tokner">
                     <img src="img/img3.png" alt="" width="" height="" />
@@ -353,16 +489,16 @@
                         <div class="phase-box phase-one margin-top-20">
                             <p class="phase-title font-w-700">Phase One</p>
                             <p class="phase-date font-w-700">0/04/2021 - 16/04/2021</p>
-                            <p class="phase-desc margin-top-70">
+                            <p class="phase-desc margin-top-70 margin-top-40-sp">
                                 <span class="price font-w-700">1 BNB = 100000 WNTR</span>
                             </p>
                             <p class="tokners-cap font-w-700 margin-top-20"><span>Soft cap:</span> 5000 BNB</p>
                             <p class="tokners-cap font-w-700 margin-top-10"><span>Hard cap:</span> 10000 BNB</p>
                         </div>
-                        <div class="phase-box phase-two margin-top-80">
+                        <div class="phase-box phase-two margin-top-80 margin-top-20-sp">
                             <p class="phase-title font-w-700">Phase One</p>
                             <p class="phase-date font-w-700">0/04/2021 - 16/04/2021</p>
-                            <p class="phase-desc margin-top-70">
+                            <p class="phase-desc margin-top-70 margin-top-40-sp">
                                 <span class="price font-w-700">1 BNB = 100000 WNTR</span>
                             </p>
                             <p class="tokners-cap font-w-700 margin-top-20"><span>Soft cap:</span> 5000 BNB</p>
@@ -371,7 +507,7 @@
                         <div class="phase-box phase-three margin-top-20">
                             <p class="phase-title font-w-700">Phase One</p>
                             <p class="phase-date font-w-700">0/04/2021 - 16/04/2021</p>
-                            <p class="phase-desc margin-top-70">
+                            <p class="phase-desc margin-top-70 margin-top-40-sp">
                                 <span class="price font-w-700">1 BNB = 100000 WNTR</span>
                             </p>
                             <p class="tokners-cap font-w-700 margin-top-20"><span>Soft cap:</span> 5000 BNB</p>
@@ -382,7 +518,7 @@
             </div>
         </div>
 
-        <div class="content-eighth">
+        <div class="content-eighth margin-left-right-min20-sp">
             <div class="main-content margin-right-136 margin-top-5">
                 <div class="how-to-buy">
                     <div class="guide-title font-w-700">
@@ -391,25 +527,26 @@
                 </div>
                 <div class="guide-box">
                     <div class="guide-steps step-one margin-top-50">
-                        <p>First Connect your Metamask<br />or TrustWallet to the "Connect<br />Wallet" on the Homepage.</p>
+                        <p>First Connect your Metamask <br class="pc-only" />or Trust Wallet to the "Connect <br class="pc-only" />Wallet" on the Homepage.</p>
                     </div>
-                    <div class="guide-steps-arrow-green">
+                    <div class="guide-steps-arrow-green margin-top-min30-sp rotate-90">
                         <img src="img/icon8.png" alt="" width="" height="" />
                     </div>
-                    <div class="guide-steps step-two margin-top-110 guide-steps-arrow">
-                        <p>Then send minimum of 0.1<br />BNB or maximum of 10 BNB<br />to the Presale wallet</p>
+                    <div class="guide-steps step-two margin-top-110 guide-steps-arrow margin-top-min35-sp">
+                        <p>Then send minimum of 0.1<br class="pc-only" />BNB or maximum of 10 BNB<br class="pc-only" />to the Presale wallet</p>
                     </div>
-                    <div class="guide-steps-arrow-yellow">
+                    <div class="guide-steps-arrow-yellow margin-top-min30-sp rotate-90">
                         <img src="img/icon9.png" alt="" width="" height="" />
                     </div>
-                    <div class="guide-steps step-three margin-top-50">
-                        <p>Then after you will received<br />your $WNTR to your address<br />within 24hours.</p>
+                    <div class="guide-steps step-three margin-top-50 margin-top-min35-sp">
+                        <p>Then after you will received<br class="pc-only" />your $WNTR to your address<br class="pc-only" />within 24hours.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="main-content margin-right-136 margin-top-210">
-            <div class="bottom-nav">
+        <div class="bg-blur"></div>
+        <div class="main-content margin-right-136 margin-top-210 margin-top-64-sp margin-left-right-min20-sp">
+            <div class="bottom-nav pc-only">
                 <p class="font-w-700"><a href="#">our team</a></p>
                 <p class="font-w-700 slash">/</p>
                 <p class="font-w-700"><a href="#">tokens</a></p>
@@ -422,7 +559,7 @@
                 <div class="bottom-logo">
                     <img src="img/bottom-logo.svg" alt="" width="" height="" />
                 </div>
-                <div class="social">
+                <div class="social margin-top-33-sp">
                     <a href="#"><img src="img/icon_twitter.png" alt="" width="" height="" /></a>
                     <a href="#"><img src="img/icon_telegram.png" alt="" width="" height="" /></a>
                     <a href="#"><img src="img/icon_instagram.png" alt="" width="" height="" /></a>
@@ -430,8 +567,8 @@
                     <a href="#"><img src="img/icon_github.png" alt="" width="" height="" /></a>
                     <a href="#"><img src="img/icon_reddit.png" alt="" width="" height="" /></a>
                 </div>
-                <div class="copyright">
-                    <p class="copy-company">&copy; 2021 Tokners. All rights reserved.</p>
+                <div class="copyright margin-top-32-sp">
+                    <p class="copy-company font-w-700">&copy; 2021 Tokners. All rights reserved.</p>
                     <div class="credit">
                         <img src="img/icon10.png" alt="" width="" height="" /><p>Design by Oleg Kulik</p>
                     </div>
