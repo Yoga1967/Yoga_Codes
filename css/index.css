@@ -826,7 +826,7 @@ a:hover {
 }
 
 .content-seventh:after {
-	margin-top: -305px;
+	margin-top: -290px;
 	content: url("../img/bg7.png");
 	position: absolute;
 	left: 0;
@@ -1012,7 +1012,7 @@ a:hover {
 }
 
 
-@media only screen and (min-width: 769px) and (max-width: 1440px) {
+@media only screen and (min-width: 769px) and (max-width: 1080px) {
 	.margin-right-79 {
 		margin-right: 14px;
 	}
@@ -1171,8 +1171,78 @@ a:hover {
 	}
 }
 
-@media only screen and (min-width: 1341px) and (max-width: 1440)  {
-	
+
+@media only screen and (min-width: 1080px) and (max-width: 1220px) {
+	.content-first.first div:nth-child(2) {
+		top: -5px;
+	}
+	.content-first.first div:nth-child(2) {
+		left: 400px;
+		right: -20px;
+	}
+	.content-first.second div:nth-child(2) {
+		top: 50px;
+	}
+	.content-first.second div:nth-child(2) {
+		left: 340px;
+		right: -170px;
+	}
+	.content-first:before {
+		top: -215px;
+		right: -65px;
+		left: 244px;
+		transform: scale(0.5);
+	}
+	.content-first {
+		padding-bottom: 60px;
+	}
+	.benefits:last-child {
+		margin-right: 0!important;
+	}
+	.phase-box {
+		padding: 205px 25px 15px;
+	}
+	.phase-one, .phase-two, .phase-three {
+		background-size: cover;
+		background-position: center;
+		border-radius: 30px;
+	}
+	.presale-box {
+		gap: 30px;
+	}
+	.content-seventh::before {
+		top: 235px;
+	}
+	.content-seventh:after {
+		margin-top: -245px;
+	}
+	.margin-top-80{
+		margin-top: 80px!important;
+	}
+	.guide-box {
+		flex-flow: row;
+	}
+	.margin-top-110 {
+		margin-top: 110px!important;
+	}
+	.margin-top-50{
+		margin-top: 50px!important;
+	}
+	.guide-steps-arrow-green, .guide-steps-arrow-yellow {
+		margin-left: -100px;
+		margin-right: -40px;
+		margin-top: 60px;
+		padding: 65px;
+	}
+	.rotate-90 {
+		transform: rotate(0);
+	}
+	.bottom-items {
+		flex-flow: row;
+	}
+	.credit {
+		justify-content: end;
+	}
 }
 @media only screen and (max-width: 768px) {
 	.margin-left-right-min40-sp{

@@ -29,7 +29,7 @@ $('#dropdown').on('change', function (e) {
     $('.tab-pane').removeClass('active in')
     $('#' + $(e.currentTarget).val()).addClass("active in");
 })
-if ($(window).width() < 1441) {
+if ($(window).width() < 1080) {
     $('.presale-box').slick({
         autoplay: true,
         dots: true,
