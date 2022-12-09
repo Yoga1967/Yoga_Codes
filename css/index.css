@@ -1043,7 +1043,7 @@ a:hover {
 		gap: 30px;
 	}
 	.years-image {
-		margin-top: -420px;
+		margin-top: -450px;
 		margin-right: -270px;
 		margin-left: 150px;
 	}
@@ -1166,6 +1166,9 @@ a:hover {
 	.margin-top-100 {
 		margin-top: 23%;
 	}
+	.margin-right-33-tab{
+		margin-right: 33px!important;
+	}
 }
 
 @media only screen and (min-width: 1341px) and (max-width: 1440)  {
@@ -1175,6 +1178,9 @@ a:hover {
 	.margin-left-right-min40-sp{
 		margin-left:-40px!important;
 		margin-right: -40px!important;
+	}
+	.margin-right-33-tab {
+		margin-right: 33px !important;
 	}
 	.margin-left-right-40-sp{
 		margin-left: 40px!important;
